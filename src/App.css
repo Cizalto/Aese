@@ -48,9 +48,8 @@ p {
   color: white;
 }
 
-li {
-  margin: 10px;
-  margin-left: 10px;
+ul {
+  margin-right: 10px;
 }
 
 .Section {

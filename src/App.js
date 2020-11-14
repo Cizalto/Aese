@@ -16,12 +16,12 @@ function App() {
           {/* block Nav */}
           <div class="d-inline-flex">
             <ul class="nav align-self-center">
-              <li class="nav-items"><a href="#Sec1" class="nav-links text-white text-decoration-none">Accueil</a></li>
-              <li class="nav-items"><a href="#Sec2" class="nav-links text-white text-decoration-none">Évènements</a></li>
-              <li class="nav-items"><a href="#Sec3" class="nav-links text-white text-decoration-none">Leaderboards</a></li>
-              <li class="nav-items"><a href="#Sec3" class="nav-links text-white text-decoration-none">Tournoi</a></li>
-              <li class="nav-items"><a href="#Sec4" class="nav-links text-white text-decoration-none">Staff</a></li>
-              <li><a href=""><button class="btn text-white">Se Connecter</button></a></li>
+              <li class="nav-items"><a href="#Sec1" class="nav-links"><button class="btn text-white text-decoration-none">Accueil</button></a></li>
+              <li class="nav-items"><a href="#Sec2" class="nav-links"><button class="btn text-white text-decoration-none">Évènements</button></a></li>
+              <li class="nav-items"><a href="#Sec3" class="nav-links"><button class="btn text-white text-decoration-none">Leaderboards</button></a></li>
+              <li class="nav-items"><a href="#Sec3" class="nav-links"><button class="btn text-white text-decoration-none">Tournoi</button></a></li>
+              <li class="nav-items"><a href="#Sec4" class="nav-links"><button class="btn text-white text-decoration-none">Staff</button></a></li>
+              <li><a href=""><button class="btn btn-outline-light text-white">Se Connecter</button></a></li>
             </ul>
           </div>
         </span>
