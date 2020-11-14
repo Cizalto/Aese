@@ -48,6 +48,11 @@ p {
   color: white;
 }
 
+li {
+  margin: 10px;
+  margin-left: 10px;
+}
+
 .Section {
   height: 920px;
 }
@@ -58,10 +63,6 @@ p {
 
 #Sec2 {
   background-color: #61b55e;
-}
-
-#Sec3 {
-
 }
 
 #Sec4 {

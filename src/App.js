@@ -7,11 +7,23 @@ function App() {
       {/* Header */}
       <header className="App-header">
         <span class="d-flex">
+          {/* Block logo + title */}
           <div class="d-inline-flex flex-grow-1">
             <img src={logo} className="App-logo" alt="logo"/>
             <h1 class="text-white align-self-center">Aese</h1>
           </div>
-          <button class="btn"><a href="/" class="text-white no-decoration">Se Connecter</a></button>
+
+          {/* block Nav */}
+          <div class="d-inline-flex">
+            <ul class="nav align-self-center">
+              <li class="nav-items"><a href="#Sec1" class="nav-links text-white text-decoration-none">Accueil</a></li>
+              <li class="nav-items"><a href="#Sec2" class="nav-links text-white text-decoration-none">Évènements</a></li>
+              <li class="nav-items"><a href="#Sec3" class="nav-links text-white text-decoration-none">Leaderboards</a></li>
+              <li class="nav-items"><a href="#Sec3" class="nav-links text-white text-decoration-none">Tournoi</a></li>
+              <li class="nav-items"><a href="#Sec4" class="nav-links text-white text-decoration-none">Staff</a></li>
+              <li><a href=""><button class="btn text-white">Se Connecter</button></a></li>
+            </ul>
+          </div>
         </span>
       </header>
 
