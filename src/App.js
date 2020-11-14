@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import logo from './AESE logo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      {/* Header */}
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-
-        <h1 class="text-white">Aese</h1>
-        <button class="btn"><a class="text-white no-decoration">Se Connecter</a></button>
+        <span class="d-flex">
+          <div class="d-inline-flex flex-grow-1">
+            <img src={logo} className="App-logo" alt="logo"/>
+            <h1 class="text-white align-self-center">Aese</h1>
+          </div>
+          <button class="btn"><a href="/" class="text-white no-decoration">Se Connecter</a></button>
+        </span>
       </header>
 
       {/* Asso */}
